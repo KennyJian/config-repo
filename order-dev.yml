@@ -14,7 +14,7 @@ server:
     port: 8082
 
 env:
-     dev6
+     dev1
 
 girl:
     name: lili
