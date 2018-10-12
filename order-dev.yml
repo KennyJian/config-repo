@@ -21,7 +21,7 @@ eureka:
                
          
 server:
-    port: 8082
+    port: 8083
 
 env:
      dev3
