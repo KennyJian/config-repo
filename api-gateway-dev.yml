@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: api-gateway
+    
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:    #携带cookie
+#   简洁写法
+#    product: /myProduct/**
+#  ignored-patterns:  #禁止访问
+#    - /**/product/listForOrder
+
+server:
+  port: 8083    
