@@ -4,6 +4,7 @@ zuul:
       path: /myProduct/**
       serviceId: product
       sensitiveHeaders:    #携带cookie
+  sensitive-headers:  #全部服务忽略敏感头(全部服务都可传递cookie)
 #   简洁写法
 #    product: /myProduct/**
 #  ignored-patterns:  #禁止访问
